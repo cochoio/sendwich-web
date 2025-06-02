@@ -12,6 +12,8 @@ if (!result.isSuccessful) {
 result.data // response data
 ```
 
+> try ~ catch 는 작동 안함. finally 는 당연히 합니당
+
 ## 확장
 
 ```ts
