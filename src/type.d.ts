@@ -1,0 +1,1 @@
+type PromiseOr<T = any> = Promise<T> | T;

@@ -24,10 +24,18 @@
 				"useSelfClosingElements": {
 					"level": "warn",
 					"fix": "safe"
-				}
+				},
+				"noUnusedTemplateLiteral": "off"
 			},
 			"correctness": {
 				"noUnusedImports": "warn"
+			},
+			"suspicious": {
+				"noExplicitAny": "off"
+			},
+			"complexity": {
+				"noThisInStatic": "off",
+				"noBannedTypes": "off"
 			}
 		}
 	},
