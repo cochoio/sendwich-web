@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const sdkHttp = axios.create({
-  baseURL: "https://mini-sendwich.cloudavar.com",
+  baseURL: process.env.NEXT_PUBLIC_SENDWICH_API_URL,
 });
 
 sdkHttp.interceptors.request.use((config) => {

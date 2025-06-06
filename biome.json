@@ -36,7 +36,8 @@
       },
       "complexity": {
         "noThisInStatic": "off",
-        "noBannedTypes": "off"
+        "noBannedTypes": "off",
+        "noUselessConstructor": "off"
       }
     }
   },
